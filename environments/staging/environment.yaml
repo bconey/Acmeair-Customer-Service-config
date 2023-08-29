@@ -6,7 +6,7 @@ app:
   version: 87787112-d045-4e13-8ffe-f97b0b208a52
   env:
     - name: JVM_ARGS
-      value: "-DenvironmentType=stage"
+      value: "-DenvironmentType=stage,-Dmp.jwt.token.header=Authorization"
     - name: io_openliberty_sample_system_inMaintenance
       value: "false"
   #mounts:
